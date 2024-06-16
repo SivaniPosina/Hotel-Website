@@ -1,0 +1,36 @@
+.hlo{
+    /* background-image: url('place1.jpg'); */
+    /* background-image: url('/place2.jpg'); */
+    margin-top: 16%;
+    margin-left: 33%;
+     font-family: 'Courier New', Courier, monospace;
+     width: 900px;
+  height: 300px;
+  background-color: white; /* You can change the background color */
+  transition: all 1s ease;
+  width: 500px; /* Updated width when the div grows */
+  height: 200px; 
+  padding-top: 3%;
+  color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  
+};
+
+.p{
+    font-size: 90%;
+}
+
+#i{
+    font-size: 180%;
+    font-family: cursive;
+}
+
+#ord{
+    font-family: cursive;
+    
+}
+
+
+.hlo:hover {
+    background-color: grey; /* Set the background color when hovered */
+  }

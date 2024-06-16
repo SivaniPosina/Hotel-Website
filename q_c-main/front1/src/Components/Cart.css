@@ -1,0 +1,117 @@
+.Cart {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    font-family: cursive;
+  }
+  /* .main{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  } */
+
+  h2 {
+    color: white;
+    font-family: cursive;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+
+  /* li {
+    margin-bottom: 20px;
+    display: flex;
+    
+    font-family: candara;
+    margin-left: 3%;
+    font-size: 200%;
+    color: white;
+    align-items: center;
+  } */
+  
+  .img1 {
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-left: 5%;
+    border: 3px solid whitesmoke;
+    
+  }
+  
+  p {
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  
+  #hi{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .crt{
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .emp{
+    margin-top: 20%;
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+  }
+
+  #place{
+    border-radius: 7%;
+    border: 3px solid gray;
+    height: 20%;
+  }
+  .cart-item-actions button {
+    background: #ffc107;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.cart-item-actions button:hover {
+    background: linear-gradient(135deg, #ff6b6b, #55aade);
+    filter: brightness(0.8);
+}
+/* ... existing styles ... */
+
+.cart-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .cart-item-details {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .cart-item-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* ... existing styles ... */
+  

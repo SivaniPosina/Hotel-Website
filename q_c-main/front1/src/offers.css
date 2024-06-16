@@ -1,0 +1,78 @@
+/* offers.css */
+
+.offers-page {
+    background-color:black; /* Dark background color */
+    color: #f3b43b; /* White text color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 28px; /* Larger font size for the title */
+    margin-bottom: 30px; /* Increased margin bottom */
+    text-transform: uppercase;
+  }
+  
+  .section-title {
+    font-size: 24px; /* Slightly larger section titles */
+    margin-top: 30px; /* Increased margin top */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f3b43b; /* Add an underlined section title */
+    text-align: center;
+  }
+  
+  .offers-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .offer-item {
+    background-color: black; /* Darker card background color */
+    border: 1px solid #f3b43b; /* Highlighted border */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .offer-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .offer-details {
+    font-size: 18px; /* Slightly larger font for offer details */
+    margin-top: 20px; /* Increased margin top for offer details */
+  }
+  
+  .offer-details li {
+    margin: 10px 0; /* More spacing between offer details */
+  }
+  
+  .offer-details h2 {
+    font-size: 22px; /* Larger font size for restaurant and bank names */
+    margin: 0;
+  }
+  
+  /* Style the offer links or buttons */
+  .offer-link {
+    background-color: #f3b43b;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .offer-link:hover {
+    background-color: #000;
+    color: #f3b43b;
+  }

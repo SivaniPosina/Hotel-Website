@@ -1,0 +1,58 @@
+/* About.css */
+.about-container {
+    background-image: url('./image2.jpeg');
+ /* Replace 'about-background.jpg' with your image file's path */
+    background-size: cover; /* You can adjust the size property as needed */
+    background-position: center;
+    color: white; /* Center the background image */
+    /* Add any other background properties you need, like background-repeat, background-attachment, etc. */
+  }
+  #abc{
+    margin-top: 80px;
+  }
+  #an{
+    text-align: center;
+    margin: 0 15px;
+  }
+  h1, h2 {
+    color: 2F2F2F;
+    font-size: 30px;
+  }
+  
+  .image-scroll-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 20px;
+  }
+ 
+  
+  .image-scroll {
+    display: inline-block;
+  }
+  
+  .image-scroll img {
+    width: 300px;
+    margin-right: 20px;
+  }
+  /* CSS to style the layout */
+.about-content {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Center vertically within the container */
+  }
+  
+  .content-wrapper {
+    display: flex; /* Nested flex container to place image and paragraph side by side */
+    align-items: center; /* Center vertically within the nested container */
+  }
+  
+  .about-image {
+    flex: 1; /* Allow the image to grow to fill available space */
+    margin-right: 20px; /* Add margin for spacing */
+  }
+  
+  .paragraph {
+    font-size: 15px;
+    flex: 2;
+    text-align: center;
+    margin: 0 40px; /* Allow the paragraph to grow to fill available space */
+  }

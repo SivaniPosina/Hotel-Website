@@ -1,0 +1,127 @@
+/* .page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.restaurant-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-image img {
+    max-width: 100%;
+    height: 200px; 
+}
+
+.restaurant-details h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.restaurant-details p {
+    margin: 5px 0;
+} */
+/* 
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.restaurant-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 10px;
+    
+    width: 450px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-image img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.restaurant-details h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.restaurant-details p {
+    margin: 5px 0;
+} */
+
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+    color: yellow; /* Set font color to yellow for the entire page */
+}
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: yellow; /* Set font color to yellow */
+    background-color: black; /* Set background color to black */
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.restaurant-item {
+    background-color: black; /* Set block background color to black */
+    border: 1px solid white; /* Set block border color to white */
+    margin: 15px;
+    padding: 10px;
+    width: 450px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.restaurant-details {
+    text-align: center; /* Center-align the text within the block */
+}
+.restaurant-details h2 {
+    font-size: 20px;
+    margin: 0;
+    color: white; /* Set font color to yellow */
+}
+
+.restaurant-details p {
+    margin: 5px 0;
+    color: white; /* Set font color to yellow */
+}
+.menu-button{
+    background-color: #ffc107;
+    color: white;
+}

@@ -1,0 +1,266 @@
+.horizontal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color:  #f3b43b;
+  padding: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-links
+{
+  font-size: large;
+}
+.horizontal-header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.horizontal-header .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.horizontal-header .nav-links ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.horizontal-header .nav-links li {
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.horizontal-header .nav-links li:hover {
+  transform: scale(1.1);
+}
+
+.horizontal-header .nav-links a {
+  text-decoration: none;
+  color:  #ffc107;
+  /* #ffc107; */
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.horizontal-header .nav-links a:hover {
+  color:  #f3b43b;
+}
+
+.horizontal-header .menu {
+  background-color:  #f3b43b;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.horizontal-header .menu:hover {
+  background-color:  #f3b43b;
+  color: #333;
+}
+.horizontal-header .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-header .login-button, .horizontal-header .cart-button {
+  background-color: #f3b43b;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.horizontal-header .login-button:hover, .horizontal-header .cart-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+.horizontal-header .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-header .search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #f3b43b;
+}
+
+.horizontal-header .search-bar .search-button {
+  background-color: #f3b43b;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.horizontal-header .search-bar .search-button:hover {
+  background-color: #fff;
+  color: #333;
+}
+.carousel-image {
+  width: 800px; /* Set your desired width */
+  height: 800px; /* Set your desired height */
+  object-fit: cover; /* This will ensure the image covers the container */
+}
+.explore-button{
+  background-color: #f3b43b;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+.p1{
+  color:#fff;
+  font-family:   candara;
+  padding-left: 20%;
+  padding-right: 25%; 
+  font-size: medium;
+}
+.additional-content{
+  text-align: justify;
+}
+.gallery-image {
+  /* width: 500px; Set the desired width */
+  width: 370px;
+  /* height: 400px; Set the desired height */
+  height: 300px;
+  border-radius: 50%;
+  padding: 3%;
+}
+/* Add this CSS to your Home.css or a separate CSS file */
+.service-cards {
+display: flex;
+flex-direction: row; /* Display the cards horizontally */
+justify-content: space-between; /* Space the cards evenly */
+padding: 8%;
+
+}
+
+.service-card {
+flex: 1; /* Each card takes an equal amount of space */
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+background-color: black;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
+color: white;
+}
+
+.service-image {
+max-width: 100%;
+height: auto;
+}
+
+
+
+
+
+
+
+/* footer */
+.footer {
+background-color: #333;
+color: #fff;
+padding: 30px 0;
+}
+
+.footer-content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 20px;
+}
+
+.footer h3 {
+font-size: 18px;
+margin-bottom: 15px;
+}
+
+.footer p {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+}
+
+.footer ul li {
+margin-bottom: 8px;
+}
+
+.footer a {
+text-decoration: none;
+color: #fff;
+transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+color: #FFA500; /* Change the color on hover */
+}
+
+.social-icons {
+font-size: 24px;
+margin-top: 10px;
+}
+
+.social-icons a {
+color: #fff;
+margin-right: 10px;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+color: #FFA500; /* Change the color on hover */
+}
+
+/* Footer Copyright */
+.footer-bottom {
+background-color: #222;
+text-align: center;
+padding: 10px 0;
+}
+
+.footer-bottom p {
+font-size: 14px;
+color: #ccc;
+}

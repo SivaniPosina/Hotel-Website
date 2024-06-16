@@ -1,0 +1,81 @@
+/* Apply styles to all elements */
+/* .menu-container {
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: black;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(to bottom, #333, #222); */
+    color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: black;
+}
+
+/* Menu container styles */
+.menu-container {
+    margin-top: 13%;
+    text-align: center;
+
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffc107;
+    border-collapse: collapse;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: medium;
+}
+
+/* Heading styles */
+h1 {
+    color: #ffc107;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    animation: text-slide 0.5s ease-out;
+}
+
+/* Table header styles */
+th {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px;
+}
+
+/* Table row styles */
+tr {
+    height: 40px;
+    border-bottom: 2px solid #ffc107;
+    transition: background-color 0.3s;
+}
+
+tr:hover {
+    background-color: #444;
+    size:0cqmax;
+}
+
+/* Table cell styles */
+td {
+    padding: 10px;
+}
+
+/* Links styles */
+a {
+    text-decoration: none;
+    color: #ffc107;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color:white;
+    font-size: large;
+}
+
+
